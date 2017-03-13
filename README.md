@@ -15,13 +15,13 @@ Release notes/descriptions for the original project posted on the previous Aras 
 
 Release | Notes
 --------|--------
-[v1.0](https://github.com/ArasLabs/imap-email-connector/releases/tag/v1.0) | VisualStudio 2008 sample project (v1)
+[v9.4](https://github.com/ArasLabs/item-link-url/releases/tag/v9.4) | Build 9.4 is the first version. Instructions are described in the ReadMe.pdf.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-[v1.0](https://github.com/ArasLabs/imap-email-connector/releases/tag/v1.0) | Aras 9.1 SP5+
+[v9.4](https://github.com/ArasLabs/imap-email-connector/releases/tag/v9.4) | Aras 9.4
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*
 
