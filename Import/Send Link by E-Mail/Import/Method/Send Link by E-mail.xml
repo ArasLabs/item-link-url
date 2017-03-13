@@ -1,9 +1,9 @@
 ﻿<AML>
- <Item type="Method" id="C1E8F165D9A041F3897B90AFAFCBC319" action="add">
+ <Item type="Method" id="4DC5C674772F4CB789A03D445FAE9BCC" action="add">
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
-  <method_code><![CDATA[var thisItem = this;
-var itemId = thisItem.GetId();
-var itemType = thisItem.GetType();
+  <method_code><![CDATA[debugger;
+var itemId = inArgs.itemId;
+var itemType = inArgs.item.getAttribute("type");
 
 var urlUtility = new ClientUrlsUtility(top.aras.getBaseURL());
 var baseUrlWithoutSalt = urlUtility.getBaseUrlWithoutSalt();
@@ -11,8 +11,7 @@ var linkUrl = baseUrlWithoutSalt +"/default.aspx?StartItem="+itemType+":"+itemId
 
 location.href= "mailto:" + "?body="+linkUrl;
 
-return;
-]]></method_code>
+return;]]></method_code>
   <method_type>JavaScript</method_type>
   <name>Send Link by E-mail</name>
  </Item>

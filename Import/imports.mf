@@ -1,3 +1,7 @@
 <imports>
-  <package name="Send Link by E-Mail" path="Send Link by E-Mail\Import" />
+  <package name="Send Link by E-Mail" path="Send Link by E-Mail\Import">
+    <dependson name="com.aras.innovator.cui_default" />
+  </package>
+  <package name="com.aras.innovator.cui_default" path=".\" />
+  <package name="com.aras.innovator.core" path=".\" />
 </imports>

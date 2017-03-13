@@ -1,0 +1,6 @@
+<export>
+  <Item keyed_name="com.aras.innovator.cui_default.twt_normal_email" config_id="70916654C83F434688639E21BB712344">
+    <property __name="label" ja="リンクをメールで送信" />
+    <property __name="tooltip_template" ja="リンクをメールで送信" />
+  </Item>
+</export>

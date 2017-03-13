@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="70916654C83F434688639E21BB712344" action="add">
+  <additional_data>{}</additional_data>
+  <image>../Images/EMailMessage.svg</image>
+  <label xml:lang="en">Send Link By E-Mail</label>
+  <on_click_handler keyed_name="Send Link by E-mail" type="Method">4DC5C674772F4CB789A03D445FAE9BCC</on_click_handler>
+  <tooltip_template xml:lang="en">Send Link By E-Mail</tooltip_template>
+  <name>com.aras.innovator.cui_default.twt_normal_email</name>
+ </Item>
+</AML>
